@@ -146,16 +146,16 @@
                     <input type="text" name="name" placeholder="Nombre" required />
                     <br />
                     <br />
-                    <input type="email" name="email" placeholder="correo" required />
+                    <input type="email" name="email" placeholder="Correo" required />
                     <br />
                     <br />
-                    <input type="number" name="phone" placeholder="celular" required />
+                    <input type="number" name="phone" placeholder="Celular" required />
                     <br />
                     <br />
                     <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
                     <br />
                     <br />
-                    <select name="dream">
+                    <select name="dream" required>
                         <option value="">--- Sueño a realizar ----</option>
                         <option value="landing-page">Landing Page</option>
                         <option value="portfolio">Portfolio</option>
@@ -174,11 +174,99 @@
                         <option value="health">Salud</option>
                         <option value="applications">Aplicaciones</option>
                     </select>
+                    <br />
+                    <br />
+                    <h4>Plan</h4>
+                    <input type="radio" name="plan" id="basic" value="basic" required />
+                    <label for="basic">Básico </label>
+                    <input type="radio" name="plan" id="standard" value="standard" required />
+                    <label for="standard">Estándar</label>
+                    <input type="radio" name="plan" id="advanced" value="advanced" required />
+                    <label for="advanced">Avanzado</label>
+                    <input type="radio" name="plan" id="custom" value="custom" required />
+                    <label for="custom">Personalizada</label>
+                    <input type="radio" name="plan" id="maintenance" value="maintenance" required />
+                    <label for="maintenance">Mantenimiento</label>
+                    <input type="radio" name="plan" id="updates" value="updates" required />
+                    <label for="updates">Actualizaciones</label>
+                    <input type="radio" name="plan" id="consulting" value="consulting" required />
+                    <label for="consulting">Consultoría</label>
+                    <input type="radio" name="plan" id="strategy" value="strategy" required />
+                    <label for="strategy">Estrategia</label>
+                    <br />
+                    <br />
+                    <h4>Tecnologías</h4>
+                    <input type="checkbox" name="react" id="react" value="react" />
+                    <label for="react">React</label>
+                    <input type="checkbox" name="next" id="next" value="next" />
+                    <label for="next">Next.js</label>
+                    <input type="checkbox" name="seo" id="seo" value="seo" />
+                    <label for="seo">SEO</label>
+                    <input type="checkbox" name="ux-ui" id="ux-ui" value="ux-ui" />
+                    <label for="ux-ui">UX/UI</label>
+                    <br />
+                    <br />
                     <input type="submit" value="Registrar sueño" />
                 </form>
             </div>
         </section>
     </main>
+    <hr />
+    <footer>
+        <nav>
+            <div>
+                <div>
+                    <div>
+                        <a href="#hero">
+                            <img src="./img/saul_carrion1-removebg-preview (1).webp" alt="Saul Carrion" width="48"
+                                height="48" />
+                        </a>
+                        <h2>Saul Carrion I Desarrollo de Software</h2>
+                        <h3>El mejor Frontend Developer y Docente</h3>
+                    </div>
+                    <div>
+                        <h3>
+                            <a href="#">Secciones</a>
+                            <ul>
+                                <li>
+                                    <a href="#hero">Perfil</a>
+                                </li>
+                                <li>
+                                    <a href="#experience">Experiencia</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contacto</a>
+                                </li>
+                            </ul>
+                        </h3>
+                    </div>
+                    <div>
+                        <h3>
+                            <a href="#">Redes sociales</a>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/saulinho135"> </a>
+                                    <i class="bi bi-facebook"></i>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/saul-carrion-arevalo-578b9469/"> </a>
+                                    <i class="bi bi-linkedin"></i>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/saulinho135"> </a>
+                                    <i class="bi bi-instagram"></i>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCpSMKAVkAK8UfdTg41TgABQ"> </a>
+                                    <i class="bi bi-youtube"></i>
+                                </li>
+                            </ul>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </footer>
 </body>
 
 </html>
